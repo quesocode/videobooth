@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>api</key>
+	<dict>
+		<key>appId</key>
+		<string>smilepadv</string>
+		<key>gateway</key>
+		<string>http://drawingboard.tinystudios.com/brain/xml/</string>
+		<key>secret</key>
+		<string>sdfsfsdfsdfsddfgert4smilepadv</string>
+	</dict>
+	<key>app</key>
+	<dict>
+		<key>auto-refresh-seconds</key>
+		<integer>10</integer>
+		<key>locationAccuracy</key>
+		<integer>100</integer>
+		<key>locationDistanceFilter</key>
+		<integer>100</integer>
+		<key>locationTimeout</key>
+		<integer>0</integer>
+		<key>refreshOnShake</key>
+		<true/>
+		<key>tabIconDefault</key>
+		<string>13-target</string>
+		<key>trackLocation</key>
+		<false/>
+	</dict>
+	<key>screen</key>
+	<dict>
+		<key>backgroundColor</key>
+		<string>black</string>
+	</dict>
+</dict>
+</plist>

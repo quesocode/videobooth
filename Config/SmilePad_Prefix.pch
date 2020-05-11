@@ -1,0 +1,30 @@
+//
+// Prefix header for all source files of the 'Buffalo' target in the 'Buffalo' project
+//
+
+
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#define DEBUG_THRESHOLD 5 
+
+#define DBugg(lvl, frmt, ...) { if(DEBUG_THRESHOLD > 0 && lvl <= DEBUG_THRESHOLD) { DLog(frmt, ##__VA_ARGS__) } };
+
+
+#define DLog(fmt, ...) { NSLog((@"" fmt), ##__VA_ARGS__); };
+
+#define SLog(name, frame) { NSLog(@"%@ | %2.1f, %2.1f | %2.1fx%2.1f", name, frame.origin.x, frame.origin.y, frame.size.width, frame.size.height); };
+
+
+//#ifdef DEBUG_MODE
+
+    
+
+//#else
+    
+//    #define DLog(...)
+
+//#endif
